@@ -1,0 +1,118 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/PlaywrightTraining/SampleProjectJs/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "applicationB",
+        "testDir": "C:/PlaywrightTraining/SampleProjectJs/tests/applicationB",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonreport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ],
+      [
+        "C:\\PlaywrightTraining\\SampleProjectJs\\node_modules\\allure-playwright\\dist\\index.js",
+        {
+          "outputFolder": "allure-result"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "C:/PlaywrightTraining/SampleProjectJs",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.22.2",
+    "workers": 3,
+    "webServer": null,
+    "_globalOutputDir": "C:\\PlaywrightTraining\\SampleProjectJs",
+    "_configDir": "C:\\PlaywrightTraining\\SampleProjectJs",
+    "_testGroupsCount": 1
+  },
+  "suites": [
+    {
+      "title": "tests\\applicationB\\SampleTestOne.spec.js",
+      "file": "tests/applicationB/SampleTestOne.spec.js",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "sample test google",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "applicationB",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "timedOut",
+                  "duration": 87348,
+                  "error": {
+                    "message": "\u001b[31mTimeout of 60000ms exceeded.\u001b[39m"
+                  },
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\PlaywrightTraining\\SampleProjectJs\\test-results\\SampleTestOne-sample-test-google-applicationB\\test-failed-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "file": "tests/applicationB/SampleTestOne.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

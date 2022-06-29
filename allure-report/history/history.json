@@ -1,0 +1,40 @@
+{
+  "applicationB tests\\applicationB\\SampleTestOne.spec.js sample test google" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bf3c74173affc715",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655989675819,
+        "stop" : 1655989700035,
+        "duration" : 24216
+      }
+    } ]
+  },
+  "applicationB tests\\applicationB\\SampleTestTwo.spec.js sample test palywright" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "60c23bbed6f723f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655989675801,
+        "stop" : 1655989698164,
+        "duration" : 22363
+      }
+    } ]
+  }
+}

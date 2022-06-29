@@ -1,0 +1,48 @@
+{
+  "uid" : "60c23bbed6f723f2",
+  "name" : "sample test palywright",
+  "fullName" : "sample test palywright",
+  "historyId" : "applicationB tests\\applicationB\\SampleTestTwo.spec.js sample test palywright",
+  "time" : {
+    "start" : 1655989675801,
+    "stop" : 1655989698164,
+    "duration" : 22363
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "applicationB"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\applicationB\\SampleTestTwo.spec.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "60c23bbed6f723f2.json",
+  "parameterValues" : [ ]
+}

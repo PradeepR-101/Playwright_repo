@@ -1,0 +1,21 @@
+[ {
+  "uid" : "bf3c74173affc715",
+  "name" : "sample test google",
+  "time" : {
+    "start" : 1655989675819,
+    "stop" : 1655989700035,
+    "duration" : 24216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60c23bbed6f723f2",
+  "name" : "sample test palywright",
+  "time" : {
+    "start" : 1655989675801,
+    "stop" : 1655989698164,
+    "duration" : 22363
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

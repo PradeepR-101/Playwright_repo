@@ -1,0 +1,17 @@
+{
+  "name": "projectjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test SampleTestOne.spec.js"
+  },
+  "author": "\"Pradeep\"",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "latest",
+    "javascript": "latest",
+    "csvtojson" : "latest"
+    
+  }
+}

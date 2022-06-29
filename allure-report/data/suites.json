@@ -1,0 +1,51 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "applicationB",
+    "children" : [ {
+      "name" : "tests\\applicationB\\SampleTestTwo.spec.js",
+      "children" : [ {
+        "name" : "sample test palywright",
+        "uid" : "60c23bbed6f723f2",
+        "parentUid" : "0059f7c8793e9770465844aab7a3dd0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655989675801,
+          "stop" : 1655989698164,
+          "duration" : 22363
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0059f7c8793e9770465844aab7a3dd0d"
+    }, {
+      "name" : "tests\\applicationB\\SampleTestOne.spec.js",
+      "children" : [ {
+        "name" : "sample test google",
+        "uid" : "bf3c74173affc715",
+        "parentUid" : "44f0e577090706241593173093727b73",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655989675819,
+          "stop" : 1655989700035,
+          "duration" : 24216
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "44f0e577090706241593173093727b73"
+    } ],
+    "uid" : "980d091dc36c5c5fd206932c765aee23"
+  } ]
+}
